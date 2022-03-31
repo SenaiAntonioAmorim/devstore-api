@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+import javax.persistence.Entity;
+
+@Entity
+
 public class Categoria {
 	
 	private Integer id;
